@@ -1,5 +1,6 @@
 export const SERVICES = {
-  BASE_URL: 'http://localhost:3005/api/v1',
+  // BASE_URL: 'http://localhost:3005/api/v1',
+  BASE_URL: `${window.location.origin}/api/v1`,
   apis: {
     current_stock: {
       url: 'stocks/current'
