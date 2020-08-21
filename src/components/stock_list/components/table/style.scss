@@ -1,0 +1,21 @@
+.table-th1 {
+  color: white;
+}
+
+// tbody tr:nth-child(even) {
+//   background-color: #f4fdf0;
+// }
+
+.table {
+  font-size: 0.8em;
+}
+
+.crsr-ptr {
+  cursor: pointer;
+}
+
+.text-over {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
